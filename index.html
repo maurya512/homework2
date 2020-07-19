@@ -1,44 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Description" content="Enter your description here"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-<link rel="stylesheet" href="assets/css/style.css">
-<title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <title>My Portfolio</title>
+    <style>
+        .display-4 {
+            font-family: 'Josefin Sans', sans-serif;
+            font-variant: small-caps;
+            color: white;
+        }
+
+        .lead {
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: bolder;
+            text-decoration-color: yellow;
+            color: white;
+        }
+
+        .jumbotron {
+            background-color: transparent;
+
+        }
+
+        .mybio {
+            text-align: center;
+            font-family: 'Josefin Sans', sans-serif;
+            color: #e6ff45
+        }
+
+        body {
+            background-image: url("bg1.jpg");
+        }
+
+        .card-body {
+            background-image: url("bg1.jpg");
+        }
+    </style>
 </head>
+
 <body>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <nav class="navbar fixed-top navbar-dark" style="background-color: rgba(97, 5, 5, 0.541);">
-                    <!-- <span class="navbar-brand">
-                      Maurya Patel   -->
-                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                          <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
-                          <a class="nav-item nav-link active" href="#">Portfolio</a>
-                          <a class="nav-item nav-link active" href="#">Contact</a>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: rgb(59, 35, 7);">
+        <a class="navbar-brand color-dark"><strong>Maurya Patel</strong> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="btn-group dropleft ml-auto">
+            <button type="button" class="btn btn-light dropdown-toggle btn-outline-dark" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+            </button>
+            <div class="dropdown-menu">
+                <h6 class="dropdown-header">My Info</h6>
+                <a class="dropdown-item btn-btn-outline-info" href="#">About</a>
+                <a class="dropdown-item btn-outline-dark" href="#">Portfolio</a>
+                <a class="dropdown-item btn-outline-success" href="#">Contact</a>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container container-fluid">
+            <h1 class="display-4 text-center">About Me</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="profilepic.JPG" style="width: 450px; height: 450px;">
+                </div>
+                <div class="mybio col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <p>
+                                Hello World! I am Maurya a Full Stack Web-Developer Student and this is my Portfolio.
+                            </p>
                         </div>
-                      </div>
-                      <a class="navbar-brand">
-                        Maurya Patel
-                      </a>
-                  </nav>
+                        <p></p>
+                        <div class="card-body">
+                            <p>Apart from coding and trying to improve upon my skills regularly I do love to indulge in
+                                some
+                                outdoor activities. I like to go on a hike or a bike ride every so often along with my
+                                friends.
+                                I also like to read and catch up on current world affairs and what's happening in the
+                                Tech
+                                Industrty as well. I started to gravitate towards Web-Development when I realized that I
+                                can
+                                build something impactful right from my Computer!
+                            </p>
+                        </div>
+                        <p></p>
+                        <div class="card-body">
+
+                            <p>
+                                So far I've learned the basics of HTML, CSS and Bootstrap. I am also learning the sacred
+                                art of
+                                Google-Fu! I can't wait to learn new things and see what more I can do with them.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </body>
+
 </html>
