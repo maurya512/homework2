@@ -77,29 +77,45 @@
             <div class="mybio col-md-12">
                 <div class="card">
                     <div class="card-body">
-                        <h5>Name</h5>
+                        <h5 style="text-align: left;">Name</h5>
                         <p>
-                            Maurya Patel
+                                <div class="form-row">
+                                  <div class="col">
+                                    <input type="text" class="form-control" placeholder="First name">
+                                  </div>
+                                  <div class="col">
+                                    <input type="text" class="form-control" placeholder="Last name">
+                                  </div>
+                                </div>
                         </p>
                     </div>
                     <div class="card-body">
-                        <h5>Phone Info:</h5>
-                        <p>732-299-8950
+                        <h5 style="text-align: left;">Phone Info:</h5>
+                        <p>
+                            <div class="form-group">
+                                <!-- <label for="exampleInputPassword1"></label> -->
+                                <input type="number/text" class="form-control" id="exampleInputPhoneNumber1" placeholder="Phone Number">
+                              </div>
                         </p>
                     </div>
                     <div class="card-body">
-                        <h5>Email Info:</h5>
+                        <h5 style="text-align: left;">Email Info:</h5>
                         <p>
-                            mauryapatel12@gmail.com
+                            <div class="form-group">
+                                <!-- <label for="exampleInputPassword1"></label> -->
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                              </div>
                         </p>
                     </div>
                     <div class="card-body">
-                        <h5>Message:</h5>
+                        <h5 style="text-align: left;">Message:</h5>
                         <p>
-                            I am currently working on my social media and do hope to link them here soon!
-
+                            <div class="form-group">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                              </div>
                         </p>
                     </div>
+                    <button type="submit" class="btn btn-success">Send</button>
                 </div>
             </div>
         </div>
