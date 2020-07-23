@@ -31,6 +31,10 @@ MY first field contains information about the first HW that I did.
 MY second field contains information about the current HW I am working on. 
 The navbar stays consistent with index and contact.html</p>
 
+# mycontact.html
+
+<p> It follows the same premise as the contact.html file except this file has my personal information in it with my social media linked into it. I have tried to create a social media link that was working. 
+
 # linking htmls
 
 <p> I linked each html to it's corresponding links to ensure when the user clicks on the link it should re-direct you to appropriate page. 
