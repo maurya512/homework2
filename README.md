@@ -15,6 +15,7 @@ Within those columns found inside rows and containers I added "cards" yet anothe
 I added some style components within the html itself that helps me customize the card, background image, opacity and fonts as well. 
 At the very end I added a copyright logo to prevent anyone from using my portfolio without my permission. </p>
 ![alt text](./assets/images/ABOUTME.png "Description goes here") 
+![alt text](./images/ABOUTME.png)
 
 
 # contact.html
