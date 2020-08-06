@@ -13,9 +13,9 @@ We made use of the jumbotron within which we nested a container.
 Both jumbotron and container are used with "fluid" mechanism which ensures that the webpage acts according to varying screen sizes. 
 Within those columns found inside rows and containers I added "cards" yet another feature found on Bootstrap that let's me insert my profile pic on left side of the page and my bio on the right side of the page. 
 I added some style components within the html itself that helps me customize the card, background image, opacity and fonts as well. 
-At the very end I added a copyright logo to prevent anyone from using my portfolio without my permission.
+At the very end I added a copyright logo to prevent anyone from using my portfolio without my permission. </p>
 ![alt text](./assets/images/ABOUTME.png "Description goes here") 
-</p>
+
 
 # contact.html
 
@@ -26,24 +26,23 @@ The third field takes email as input.
 The fourth field takes a message as an input.
 All of this is contained within a card, which is contained within a container and all of that is contained within jumbotron.
 The navbar stays consistent with index.html
-Added some style elements similar to index.html 
+Added some style elements similar to index.html </p>
 ![alt text](./assets/images/CONTACT.png "Description goes here")
-</p>
 
 # portfolio.html
 
 <p> In portfolio.html I created a page using "media-objects" that allows me to enter a small picture along with multiple lines of text. 
 MY first field contains information about the first HW that I did. 
 MY second field contains information about the current HW I am working on. 
-The navbar stays consistent with index and contact.html
+The navbar stays consistent with index and contact.html </p>
 ![alt text](./assets/images/PORTFOLIO.png "Description goes here")
-</p>
+
 
 # mycontact.html
 
-<p> It follows the same premise as the contact.html file except this file has my personal information in it with my social media linked into it. I have tried to create a social media link that was working. 
+<p> It follows the same premise as the contact.html file except this file has my personal information in it with my social media linked into it. I have tried to create a social media link that was working. </p>
 ![alt text](./assets/images/MYCONTACTINFO.png "Description goes here")
-</p>
+
 
 # linking htmls
 
